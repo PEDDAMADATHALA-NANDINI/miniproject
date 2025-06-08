@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1> Ticket Booking</h1>
+    <fieldset>
+        <legend >Personal information</legend>
+        <form action="./action.html">
+            <label for="link">Name</label>
+            <input type="text"  placeholder="enter name" autocomplete="off" id="link"> <br><br>
+
+        <label for="link">Email:</label>
+        <input type="email" placeholder="enter email" autofocus autocomplete="off" id="link"> <br> <br>
+
+         <label for="link">phone number</label>
+         <input type="text" minlength="10" pattern="[0-9]" id="link">  <br><br>
+
+         <label >gender</label> <br> <br>
+         <input type="radio" name="gender">male 
+         <input type="radio" name="gender">female <br> <br>
+
+         <label for="link">Address :</label> 
+         <input type="text " textarea="" id="link">
+
+
+      </form></fieldset>
+
+      <fieldset>
+        <legend >Travelling Information</legend>
+        <form action="./action.html">
+
+            <label for="link">Description</label>
+            <input type="text" textarea=""  id="link"> <br><br>
+
+            <label for="link"> departure date</label>
+            <input type="date" id="link"> <br><br>
+
+            <label for="link">return date</label>
+            <input type="date" id="link"> <br><br>
+              
+            <label > travel type</label> <br>
+            <input type="radio" name="travel type"> Bus
+            <input type="radio" name="travel type"> Car
+            <input type="radio" name="travel type"> Mini van <br> <br>
+
+    
+
+      </form></fieldset>
+
+
+       <fieldset> 
+        <legend>Additional info</legend>
+        <form action="./action.html">  
+            <label >Accommodation nedded</label> <br>
+            <input type="radio" name="Accommodation needed"> yes
+            <input type="radio" name="Accommodation needed"> No   <br> <br>
+             
+
+        <label for="link"> Any Instructions</label>
+        <input type="text " textarea="" id="link"> <br > <br><br>
+          
+
+        <input type="submit" value="Book now">
+
+        </form>
+       </fieldset>
+
+    
+</body>
+</html>
